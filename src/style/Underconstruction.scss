@@ -1,0 +1,68 @@
+#undercons-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  font-family: var(--font-m);
+  gap: 20px;
+  h1 {
+    color: var(--light);
+    font-size: 50px;
+    text-align: center;
+  }
+  button {
+    background-color: var(--dark);
+    border-radius: 5px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    overflow: hidden;
+
+    a {
+      text-decoration: none;
+      color: var(--light);
+      font-size: 18px;
+      letter-spacing: 2px;
+      z-index: 9;
+      position: relative;
+      transition: 0.4s;
+      span {
+        margin-left: 10px;
+      }
+    }
+    &::after,
+    &::before {
+      content: "";
+      background-color: var(--light);
+      width: 100%;
+      //   display: block;
+      position: absolute;
+      height: 50%;
+      left: 0;
+      transition: 0.4s;
+    }
+    &::after {
+      top: -2rem;
+      transition-delay: 0.4s;
+    }
+    &::before {
+      bottom: -2rem;
+    }
+    &:hover {
+      a {
+        color: var(--dark);
+        font-weight: var(--semi-bold);
+      }
+      &::after {
+        top: 0;
+      }
+      &::before {
+        bottom: 0;
+      }
+    }
+  }
+}

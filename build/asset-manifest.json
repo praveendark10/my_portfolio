@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9a476b1.css",
+    "main.js": "/static/js/main.d381278d.js",
+    "static/media/bg-04.png": "/static/media/bg-04.793e974dd7775684b189.png",
+    "static/media/Gowtham_Resume.pdf": "/static/media/Gowtham_Resume.d2de2967135d970c7ecf.pdf",
+    "static/media/project-05.png": "/static/media/project-05.2daa418c189ab2d56beb.png",
+    "static/media/project-03.png": "/static/media/project-03.19b7cb8a8dfa0ec57c49.png",
+    "static/media/project-06.png": "/static/media/project-06.1b74721e447b2c61f2f6.png",
+    "static/media/Test-03.png": "/static/media/Test-03.ff720010744325373748.png",
+    "static/media/project-02.png": "/static/media/project-02.5fc466c03931cb078bab.png",
+    "static/media/project-01.png": "/static/media/project-01.043091294da3df4bc132.png",
+    "static/media/project-04.png": "/static/media/project-04.14f3cd96e1bee93dc11d.png",
+    "index.html": "/index.html",
+    "main.b9a476b1.css.map": "/static/css/main.b9a476b1.css.map",
+    "main.d381278d.js.map": "/static/js/main.d381278d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9a476b1.css",
+    "static/js/main.d381278d.js"
+  ]
+}
